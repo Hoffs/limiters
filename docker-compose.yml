@@ -51,11 +51,11 @@ services:
     environment:
       ALLOW_EMPTY_PASSWORD: yes
     ports:
-      - "5432:5432"
+      - "9432:5432"
 
   cosmos:
     image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:vnext-preview
-    command: [ "--protocol", "http" ]
+    command: ["--protocol", "http"]
     environment:
       PROTOCOL: http
       COSMOS_HTTP_CONNECTION_WITHOUT_TLS_ALLOWED: "true"

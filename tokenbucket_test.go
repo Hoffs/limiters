@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	l "github.com/Hoffs/limiters"
 	"github.com/google/uuid"
-	l "github.com/mennanov/limiters"
 	"github.com/redis/go-redis/v9"
 )
 

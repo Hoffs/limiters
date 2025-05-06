@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mennanov/limiters"
+	"github.com/Hoffs/limiters"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

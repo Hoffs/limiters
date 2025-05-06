@@ -18,8 +18,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/mennanov/limiters"
-	pb "github.com/mennanov/limiters/examples/helloworld"
+	"github.com/Hoffs/limiters"
+	pb "github.com/Hoffs/limiters/examples/helloworld"
 )
 
 func Example_simpleGRPCLimiter() {

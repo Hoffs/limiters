@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
+	l "github.com/Hoffs/limiters"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
@@ -20,7 +21,6 @@ import (
 	"github.com/go-redsync/redsync/v4/redis/goredis/v9"
 	"github.com/google/uuid"
 	"github.com/hashicorp/consul/api"
-	l "github.com/mennanov/limiters"
 	"github.com/redis/go-redis/v9"
 	"github.com/samuel/go-zookeeper/zk"
 	"github.com/stretchr/testify/suite"

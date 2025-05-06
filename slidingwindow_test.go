@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	l "github.com/Hoffs/limiters"
 	"github.com/google/uuid"
-	l "github.com/mennanov/limiters"
 )
 
 // slidingWindows returns all the possible SlidingWindow combinations.

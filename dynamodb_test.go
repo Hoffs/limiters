@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/Hoffs/limiters"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
-	"github.com/mennanov/limiters"
 	"github.com/pkg/errors"
 )
 
